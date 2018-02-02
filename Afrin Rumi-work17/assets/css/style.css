@@ -366,6 +366,7 @@ html, body {
 }
 .promo-bg {
 	background: #F4F0F0;
+    padding: 20px 20px 0;
 }
 .promo-content {
 	padding: 40px 110px 32px 40px;
@@ -554,4 +555,3 @@ input[type="submit"] {
     z-index: 98;
     opacity: .6;
 }
-
