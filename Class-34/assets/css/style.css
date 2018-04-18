@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus; input:focus; textarea:focus; button:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+	color: #222;
+	color: #333;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #565656;
+	color: #9e9e9e;
+	color: #8c8c8c;
+    font-size: 14px;
+    line-height: 1.8;
+	color: #787978;
+	color: #828282;
+    font-size: 15px;
+    line-height: 1.7;
+	color: #9c9c9c;
+}
+a:hover { text-decoration: none }
+
+.single-slide-item {background-image: url(../img/bg-1.jpg);
+    height: 650px;
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;
+    margin-bottom: 100px;
+}
+.slide-text-area {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.slide-text {
+    position: relative;
+	background: #2382C5;
+	font-size: 20px;
+	color: #fff;
+	line-height: 1.8;
+	padding-top: 60px;
+	padding-right: 60px;
+	padding-bottom: 150px;
+}
+.slide-text h2 {
+	font-size: 50px;
+	color: #fff;
+	font-family: roboto;
+}
+.boxed-btn {
+	display: inline-block;
+	background: #333;
+	color: #fff;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 35px;
+}
+.slide-text::before {
+	position: absolute;
+	left: -1000%;
+	top: 0;
+	width: 1000%;
+	height: 100%;
+	background: #2382C5;
+	content: "";
+}
+.slide-text:after {
+	position: absolute;
+	right: -10px;
+	top: 50px;
+	width: 20px;
+	height: 20px;
+	background: #2382C5;
+	content: "";
+    transform: rotate(45deg)
+}
